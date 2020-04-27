@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # RingCentral Engage Voice API Docs
 
 [![Docs Status][docs-status-svg]][docs-status-link]
@@ -45,3 +46,10 @@ If you wish to change the specs being tested edit the [specs_test.go](specs_test
 
  [specs-status-svg]: https://travis-ci.com/ringcentral/engage-voice-api-docs.svg?branch=master
  [specs-status-link]: https://travis-ci.com/ringcentral/engage-voice-api-docs
+=======
+# Engage API Docs
+
+Visit at: https://engage-api-docs.rtfd.org
+
+Copyright &copy; 2019 RingCentral, Inc.
+>>>>>>> Stashed changes

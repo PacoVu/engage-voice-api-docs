@@ -1,7 +1,14 @@
+<<<<<<< Updated upstream
 site_name: RingCentral Engage Developer Guide
 site_url: https://engage-api-docs.rtfd.org
 site_favicon: favicon.ico
 repo_url: https://github.com/ringcentral/engage-api-docs
+=======
+site_name: RingCentral Engage Voice Developer Guide
+site_url: https://engage-voice-api-docs.rtfd.org
+site_favicon: favicon.ico
+repo_url: https://github.com/ringcentral/engage-voice-api-docs
+>>>>>>> Stashed changes
 docs_dir: docs
 theme:
   name: moonstone
@@ -29,6 +36,7 @@ markdown_extensions:
 #extra_javascript: [fonts.js]
 pages:
 - 'Primary':
+<<<<<<< Updated upstream
   - 'Campaigns and Leads':
     - 'Leads':
       - 'Bulk Import Leads': voice/leads/bulk-import.md
@@ -40,3 +48,51 @@ pages:
     - 'Obtaining a Token': voice/basics/auth-ringcentral.md
     - 'Legacy Tokens': voice/basics/auth-legacy.md
   - 'Embeddable': voice/embeddable/get-started.md
+=======
+  - 'Authentication':
+    - 'Overview': authentication/authentication.md
+    - 'Legacy': authentication/auth-legacy.md
+    - 'RingCentral Office Token': authentication/auth-ringcentral.md
+    - 'Getting Started':
+      - 'Node JS': authentication/quick-start/node.md
+      - 'PHP': authentication/quick-start/php.md
+      - 'Python': authentication/quick-start/python.md
+  - 'Call Recordings':
+    - 'Overview': recordings/download.md
+    - 'Getting Started':
+      - 'Node JS': recordings/quick-start/node.md
+      - 'PHP': recordings/quick-start/php.md
+      - 'Python': recordings/quick-start/python.md
+  - 'Active Calls':
+    - 'Overview': activecalls/index.md
+    - 'Getting Started':
+      - 'Node JS': activecalls/quick-start/node.md
+      - 'PHP': activecalls/quick-start/php.md
+      - 'Python': activecalls/quick-start/python.md
+  - 'Agents':
+    - 'Overview': agents/index.md
+    - 'Getting Started':
+      - 'Node JS': agents/quick-start/node.md
+      - 'PHP': agents/quick-start/php.md
+      - 'Python': agents/quick-start/python.md
+  - 'Campaign':
+    - 'Overview': campaign/index.md
+    - 'Getting Started':
+      - 'Node JS': campaign/quick-start/node.md
+      - 'PHP': campaign/quick-start/php.md
+      - 'Python': campaign/quick-start/python.md
+  - 'Reporting':
+    - 'Overview': reporting/index.md
+    - 'Getting Started':
+      - 'Node JS': reporting/quick-start/node.md
+      - 'PHP': reporting/quick-start/php.md
+      - 'Python': reporting/quick-start/python.md
+  - 'Users':
+    - 'Overview': users/index.md
+    - 'Getting Started':
+      - 'Node JS': users/quick-start/node.md
+      - 'PHP': users/quick-start/php.md
+      - 'Python': users/quick-start/python.md      
+- 'Secondary':
+  - 'SDKs': sdks.md
+>>>>>>> Stashed changes
